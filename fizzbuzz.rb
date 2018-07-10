@@ -6,6 +6,7 @@ def fizzbuzz(number)
   elsif(number%5)==0
     puts "Buzz"
   else
+    puts "nil"
   end
 end
 fizzbuzz(15)
